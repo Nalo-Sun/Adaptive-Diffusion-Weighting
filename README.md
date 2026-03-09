@@ -134,3 +134,6 @@ We evaluate our method on CIFAR-10 and CIFAR-100 using the FID.
 
 Our method reduces the variance imbalance across log-SNR regions and improves training stability.
 
+<p align='center'>
+  <img src='variance_heatmap.pdf' width='500'>
+</p>
