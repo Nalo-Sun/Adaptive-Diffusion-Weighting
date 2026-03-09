@@ -97,3 +97,40 @@ $$
 $$
 
 This mechanism increases the influence of harder samples and encourages **more balanced optimization across log-SNR levels**.
+
+📦 Installation
+--------------------------------------------------------------
+
+### Install Dependencies
+
+We recommend using conda to create a clean environment.
+
+python==3.12.7
+
+torch>=2.0 | torchvision>=0.15 | pytorch-fid>=0.3.0 |
+numpy>=1.23| matplotlib>=3.7   | pandas>=1.5        |
+tqdm>=4.65
+
+### Dataset
+
+Download CIFAR-10 and place it under folder('./data(CIFAR10)')
+
+Download CIFAR-100 and place it under folder('./data(CIFAR100)')
+
+🎉 Results
+--------------------------------------------------------------
+
+### Results (FID)
+
+We evaluate our method on CIFAR-10 and CIFAR-100 using the FID.
+
+| Sampling Strategy | FID | FID |
+|-------------------|-----|-----|
+|                   | CIFAR-10 | CIFAR-100 |
+|     Log-normal    |   14.21  |   23.31   |
+|        Ours       |   13.58  |   20.89   | 
+
+### Results (Variance)
+
+Our method reduces the variance imbalance across log-SNR regions and improves training stability.
+
