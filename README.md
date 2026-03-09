@@ -29,7 +29,7 @@ variance-aware training strategies for improving diffusion model optimization.
 --------------------------------------------------------------
 
 <p align='center'>
-  <img src='pipeline.jpg' width='600'>
+  <img src='figures/pipeline.jpg' width='600'>
 </p>
 
 🎯 Method
@@ -135,7 +135,7 @@ We evaluate our method on CIFAR-10 and CIFAR-100 using the FID.
 Our method reduces the variance imbalance across log-SNR regions and improves training stability.
 
 <p align='center'>
-  <img src='variance_heatmap.jpg' width='600'>
+  <img src='figures/variance_heatmap.jpg' width='600'>
 </p>
 
 💌 Notes
