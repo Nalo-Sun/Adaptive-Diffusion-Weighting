@@ -137,3 +137,18 @@ Our method reduces the variance imbalance across log-SNR regions and improves tr
 <p align='center'>
   <img src='variance_heatmap.jpg' width='600'>
 </p>
+
+💌 Notes
+--------------------------------------------------------------
+
+The naming of folders follows the section titles of the paper. 
+For better understanding, we suggest reviewing the code while reading paper.
+
+🌟 Citation
+--------------------------------------------------------------
+
+If you find this work useful for your research, please cite the paper.
+
+If you find this work helpful for your mood, pleasr give us a star.
+
+Have a nice day. 🥰🥰🥰
