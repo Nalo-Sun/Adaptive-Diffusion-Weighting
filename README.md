@@ -107,7 +107,7 @@ We recommend using conda to create a clean environment.
 
 python==3.12.7
 
-torch>=2.0 | torchvision>=0.15 | pytorch-fid>=0.3.0 |
+torch>=2.0 | torchvision>=0.15 | pytorch-fid>=0.3.0 | 
 numpy>=1.23| matplotlib>=3.7   | pandas>=1.5        |
 tqdm>=4.65
 
